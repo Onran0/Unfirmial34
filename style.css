@@ -68,13 +68,13 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  box-shadow: 0 8px 16px 0 rgba(12, 235, 12, .25);
+  box-shadow: 0 8px 16px 0 rgba(235, 12, 12, .25);
   transition: .10s;
 }
 
 .button:hover {
   background-image: linear-gradient(45deg, #ff351f 0%,  #ff351f 50%, #ff351f 100%);
-  box-shadow: 0 16px 32px 0 rgba(235, 12, 12, .25);
+  box-shadow: 0 16px 32px 0 rgba(255, 3, 3, .25);
   background-position: 0 0;
 }
 

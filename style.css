@@ -79,8 +79,8 @@ body {
 }
 
 .img {
-    display: table-cell;
+    margin: 10px auto 20px;
+    display: block;
     height: 400px;
-    text-align: center;
     width: 400px;
 }

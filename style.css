@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  height: 100%;
+}
+
+.grtitle {
+  text-decoration: none;
+  margin: 10px 10px;
+  margin-left: 0%;
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  transition: .5s;
+  background: -webkit-linear-gradient(#eee , #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.title {
+  text-decoration: none;
+  margin: 10px 10px;
+  margin-left: 0%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  transition: .5s;
+}
+
+.text {
+  text-decoration: none;
+  margin: 10px 10px;
+  margin-left: 0%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  transition: .5s;
+}
+
+.button {
+  text-decoration: none;
+  display: grid;
+  padding: 12px 145px;
+  margin: 20px 600px;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #06ba00 0%,  #1cd100 50%, #06ba00 100%);
+  background-position: 100% 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(12, 235, 12, .25);
+  transition: .5s;
+}
+
+.button:hover {
+  background-image: linear-gradient(45deg, #ff351f 0%,  #ff351f 50%, #ff351f 100%);
+  box-shadow: 0 16px 32px 0 rgba(235, 12, 12, .25);
+  background-position: 0 0;
+}
+
+.img {
+  text-decoration: none;
+  display: block;
+  padding: 12px 40px;
+  margin: 10px auto 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(12, 235, 12, .25);
+  transition: .5s;
+}
+
+.img:hover {
+  box-shadow: 0 16px 32px 0 rgba(235, 12, 12, .25);
+}

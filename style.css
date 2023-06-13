@@ -79,22 +79,7 @@ body {
 }
 
 .img {
-  text-decoration: none;
-  display: block;
-  padding: 12px 40px;
-  margin: 10px auto 20px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  background-size: 200% 200%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  box-shadow: 0 16px 32px 0 rgba(12, 235, 12, .25);
-  transition: .5s;
-}
-
-.img:hover {
-  box-shadow: 0 16px 32px 0 rgba(235, 12, 12, .25);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
